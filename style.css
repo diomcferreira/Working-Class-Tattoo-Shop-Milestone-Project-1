@@ -30,6 +30,11 @@ font-family: 'Ewert', cursive;
     color: #e50000;
 }
 
+.info-text {
+
+    font-family: 'exo', cursive;
+
+}
 
 
 
@@ -47,7 +52,7 @@ font-family: 'Ewert', cursive;
 }
 
 .parallax-two {
-    background-image: url(../media/parallax.png);
+    background-image: url(../media/parallax-one.png);
     padding: 100px;
     height: 600px;
     background-attachment: fixed;
@@ -57,7 +62,7 @@ font-family: 'Ewert', cursive;
 }
 
 .parallax-three {
-    background-image: url(../media/parallax.png);
+    background-image: url(../media/parallax-one.png);
     padding: 100px;
     height: 600px;
     background-attachment: fixed;
@@ -67,7 +72,7 @@ font-family: 'Ewert', cursive;
 }
 
 .parallax-four {
-    background-image: url(../media/parallax.png);
+    background-image: url(../media/shoprules.png);
     padding: 100px;
     height: 600px;
     background-attachment: fixed;
@@ -90,29 +95,25 @@ font-family: 'Ewert', cursive;
 }
 
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
+.card {
 
-.fa-instagram {
-  background: #125688;
-  color: white;
+    width: 300px;
+ 
+   length: 300px;
 }
 
 
-.fa:hover {
-    opacity: 0.7;
 
 
+.footer{
+  background: lightgray;
+  color: darkslategrey;
 
-}
-
-.form {
-
-    background-color: green;
+} 
+  .about-company{
+    font-size: 18px;}
+  .location{
+    font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
 }
