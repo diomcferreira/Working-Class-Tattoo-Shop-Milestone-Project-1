@@ -9,7 +9,7 @@ font-family: 'Ewert', cursive;
     font-family: 'bungee shade', cursive;
     margin-top: 170px;
     margin-left: 260px;
-    color: #e50000;
+    color: #fff;
     
 }
 
@@ -18,7 +18,7 @@ font-family: 'Ewert', cursive;
     font-family: 'bungee shade', cursive;
     margin-top: 170px;
     margin-left: 260px;
-    color: #e50000;
+    color: #fff;
    
 }
 
@@ -27,13 +27,17 @@ font-family: 'Ewert', cursive;
     font-family: 'bungee shade', cursive;
     margin-top: 170px;
     margin-left: 260px;
-    color: #e50000;
+    color: #fff;
 }
 
 .info-text {
 
     font-family: 'exo', cursive;
 
+}
+
+.lead {
+    font-family: 'exo', cursive;
 }
 
 
@@ -52,7 +56,7 @@ font-family: 'Ewert', cursive;
 }
 
 .parallax-two {
-    background-image: url(../media/parallax-one.png);
+    background-image: url(../media/parallax-two.png);
     padding: 100px;
     height: 600px;
     background-attachment: fixed;
@@ -62,7 +66,7 @@ font-family: 'Ewert', cursive;
 }
 
 .parallax-three {
-    background-image: url(../media/parallax-one.png);
+    background-image: url(../media/parallax-two.png);
     padding: 100px;
     height: 600px;
     background-attachment: fixed;
