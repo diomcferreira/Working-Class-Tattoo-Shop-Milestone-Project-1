@@ -3,6 +3,10 @@
 font-family: 'Ewert', cursive;
 }
 
+.nav-item {
+    font-family: 'exo' cursive;
+}
+
 
 .title-one {
 
@@ -47,6 +51,16 @@ font-family: 'Ewert', cursive;
 }
 
 
+.location-title {
+    font-family: 'exo', cursive;
+    text-decoration: underline;
+}
+
+.hours-title {
+    font-family: 'exo', cursive;
+    text-decoration: underline;
+}
+
 
 
 
@@ -61,7 +75,7 @@ font-family: 'Ewert', cursive;
 }
 
 .parallax-two {
-    background-image: url(../media/parallax-two.png);
+    background-image: url(../media/parallax-one.png);
     padding: 100px;
     height: 600px;
     background-attachment: fixed;
@@ -111,26 +125,27 @@ font-family: 'Ewert', cursive;
    length: 300px;
 }
 
-
-  .about-company{
-    font-size: 18px;}
-  .location{
-    font-size: 18px;}
-  }
-  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
-}
-
 hr {
 
     border: 0;
-    height: 1px;
+    height: 5px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 
 }
 
 .footer {
-  background-color: #2f2f33;
+  background-color: darkgrey;
   color: #fafafa;
   min-height: 120px;
   margin: 0;
+}
+
+.about-company {
+    padding-top: 40px;
+    font-size: 18px;
+}
+
+.location {
+    padding-top: 40px;
+    font-size: 18px;
 }
