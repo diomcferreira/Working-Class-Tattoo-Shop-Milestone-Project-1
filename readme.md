@@ -5,9 +5,23 @@ Also, with a website that allows users to fill out information on who they want 
  
 ## UX
  
-This is a very simple and straightforward website that I made for anyone who could be interested in getting a new tattoo. With a form for contacting a specific artist or whoever is free, a customer can be in direct communication with the artisrt of their choice.
+This is a very simple and straightforward  website that I made for anyone who could be interested in getting a new tattoo. With a form for contacting a specific artist or whoever is free, a customer can be in direct communication with the artisrt of their choice.
 
 It's a single page, scrolling website that allows the user to quickly look for and find what they are looking for, whether it's contact information, a gallery of some of the artists work or just a shop phone number.
+
+### Business goals
+
+- To be able to showcase artist work + what services are offered
+- get new bookings easily through "contact us" form
+- drive traffic to each artists Instagram accounts
+- inform customers of location using map
+
+### Customer goals
+
+- quickly and easily see what products are offered
+- learn about specific tattoo artist & check even more of their work on Instagram
+- be able to quickly contact a specific artist I like
+- know about what to expect & where to find the shop and contact in case I need to
 
 ## Existing Features
 
@@ -20,6 +34,8 @@ There are 4 sections in total on this site:
 ### Features Left to Implement
 
 In "Artists" section, I would love to implement a modal when clicking on a certain artist name that would pop up with a carousel gallery of some of their specific works.
+In "contact us" form, I want to add a attachment link, so it's possible a customer can add photos of a tattoo examples they want the artist to work off of.
+
 
 ## Technologies Used
 
@@ -27,6 +43,7 @@ In "Artists" section, I would love to implement a modal when clicking on a certa
 - CSS
 - Boostrap 4
 - Google Fonts
+- Git Pages (for deployment)
 
 
 ## Testing
@@ -52,9 +69,6 @@ If this section grows too long, you may want to split it off into a separate fil
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-
-## Credits
 
 ### Media
 

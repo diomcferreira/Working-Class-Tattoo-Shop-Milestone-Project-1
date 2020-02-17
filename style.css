@@ -32,7 +32,8 @@ font-family: 'Ewert', cursive;
 
 .info-text {
 
-    font-family: 'exo', cursive;
+    font-family: 'quicksand', cursive;
+    font-weight: 500;
 
 }
 
@@ -40,6 +41,10 @@ font-family: 'Ewert', cursive;
     font-family: 'exo', cursive;
 }
 
+.navbar-brand {
+    font-family: 'bangers', cursive;
+    font-size: 26px;
+}
 
 
 
@@ -107,17 +112,25 @@ font-family: 'Ewert', cursive;
 }
 
 
-
-
-.footer{
-  background: lightgray;
-  color: darkslategrey;
-
-} 
   .about-company{
     font-size: 18px;}
   .location{
     font-size: 18px;}
   }
   .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
+
+hr {
+
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+
+}
+
+.footer {
+  background-color: #2f2f33;
+  color: #fafafa;
+  min-height: 120px;
+  margin: 0;
 }
