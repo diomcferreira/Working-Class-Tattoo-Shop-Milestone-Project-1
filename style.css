@@ -7,13 +7,9 @@ font-family: 'Ewert', cursive;
     font-family: 'exo' cursive;
 }
 
-
 .title-one {
 
     font-family: 'bungee shade', cursive;
-    margin-top: 170px;
-    margin-left: 260px;
-    color: #fff;
     
 }
 
@@ -38,6 +34,7 @@ font-family: 'Ewert', cursive;
 
     font-family: 'quicksand', cursive;
     font-weight: 500;
+    position: center;
 
 }
 
@@ -61,7 +58,10 @@ font-family: 'Ewert', cursive;
     text-decoration: underline;
 }
 
-
+@media only screen and (min-width:350px) {
+    .navbar-brand {
+        margin-left: 30px;
+    }
 
 
 .parallax-one {
@@ -108,10 +108,6 @@ font-family: 'Ewert', cursive;
    padding-top: 100px;
 }
 
-
-
-
-
 .carousel-inner > .carousel-item {
    height: 700px;
 
@@ -121,8 +117,7 @@ font-family: 'Ewert', cursive;
 .card {
 
     width: 300px;
- 
-   length: 300px;
+    length: 300px;
 }
 
 hr {
@@ -134,8 +129,8 @@ hr {
 }
 
 .footer {
-  background-color: darkgrey;
-  color: #fafafa;
+  background-color: #ccccca;
+  color: #3aaba5;
   min-height: 120px;
   margin: 0;
 }
@@ -148,4 +143,22 @@ hr {
 .location {
     padding-top: 40px;
     font-size: 18px;
+}
+
+.container-form {
+
+    background-color: #ccccca;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.jumbotron {
+
+    background-color: #ccccca;
+}
+
+.welcome.text {
+
+    background-color: #ccccca;
 }

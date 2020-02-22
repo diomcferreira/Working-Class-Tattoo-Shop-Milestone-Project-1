@@ -9,13 +9,19 @@
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Exo|Bangers|Quicksand|Ewert|Faster+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
     <title>Working Class Tattoo Shop</title>
 </head>
 <body>
 <!--- Navbar --------->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-  <a class="navbar-brand" href="#home">Working Class Tattoo Shop</a>
+    
+    <nav class="navbar sticky-top navbar-expand navbar-dark bg-dark">
+ <div class="container-fluid">
+  <a href="#home" class="navbar-brand">
+        <img src="../media/logo.png" height="55" alt="Working class">
+    </a>
   
   <ul class="navbar-nav">
   <li class="nav-item">
@@ -37,7 +43,7 @@
 
 <!--- Welcome Section --------->
 <div id="home"></div>
-<div class="container-fluid padding">
+<div class="container welcome-text">
 	<div class="row welcome text-center">
 		<div class="col-12">
 			<h1 class="display-4 main-title">Working Class Tattoo Shop </h1>
@@ -55,9 +61,8 @@
 
 <hr>
 <!-------Parallax photo----------->
-
-<div class="parallax-one">
-    <div class="top-heading title-one">
+<div class="container-fluid parallax-one">
+    <div class="title-one">
         <h1>Our Shop</h1>
     </div>
 </div>
@@ -67,7 +72,7 @@
 <!--- Photo Carousel ---------->
 <div id="gallery"></div>
 <div class="container-fluid">
-    <div id="carousel" class="carousel slide md-4" data-ride="carousel">
+    <div id="carousel-art" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="d-block w-100" src="../media/photo1.png"
@@ -90,11 +95,11 @@
                 alt="Fifth slide">
             </div>
         </div>
-  <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carousel-art" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carousel-art" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
@@ -106,17 +111,20 @@
 <hr>
 
 <!---2nd Parallax + Artist Cards -------->
-<div class="parallax-two">
-    <div class="top-heading title-two">
-        <h1>Meet our Artists</h1>
-    </div>
+<div class="container-fluid parallax-two">
+    <div class="row">
+        <div class="col">
+            <div class="top-heading title-two">
+                <h1><!-----Meet our Artists---></h1>
+            </div>
+        </div>
+    </div>    
 </div>
-
 <hr>
 
 <div id="artists"></div>
-<div class="container-fluid padding mt-4">
-	<div class="row padding">
+<div class="container-fluid">
+	<div class="row">
 		<div class="col-md-3">
 			<div class="card">
 				<img src="../media/bruce.png" alt="" class="card-img-top">
@@ -142,7 +150,7 @@
 				<img src="../media/iban.png" alt="" class="card-img-top">
 				<div class="card-body">
 					<h4 class="card-title">Iban</h4>
-					<p class="card-text">Iban has tattooed for 5 years all over Europe. He also is certified in piercings, so you can  </p>
+					<p class="card-text">Iban has tattooed for 5 years all over Europe. He also is certified to perform piercings. </p>
 					<a href="https://www.instagram.com/iban_bmg/" class="btn btn-info">Instagram</a>
 				</div>
 			</div>
@@ -166,12 +174,11 @@
 <hr>
 
 <!--- Parallax Three------->
-<div class="parallax-three">
+<div class="container-fluid parallax-three">
     <div class="top-heading title-one">
-        <h1>Contact us</h1>
+        <h1><!-----Contact us----></h1>
     </div>
 </div>
-
 <hr>
 
 <!--- Contact Artists Form ------->
@@ -180,11 +187,15 @@
 <div class="container-form">
 <form class="container">
     <div class="row">
-        <div class="form-group col-md-6">
-            <label for="exampleFormControlInput1">Email address</label>
+        <div class="form-group col-md-4">
+            <label for="exampleFormControlInput1">Name:</label>
+            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="exampleFormControlInput1">Email address:</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label for="exampleFormControlSelect1">Select Artist:</label>
             <select class="form-control" id="exampleFormControlSelect1">
                 <option>Any artist</option>
@@ -201,7 +212,7 @@
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
 
-    <button type="submit" class="btn btn-primary my-1">Submit</button>
+    <button type="submit" class="btn btn-info my-1">Submit</button>
 
 </form>
 </div>
@@ -210,9 +221,9 @@
 <hr>
 
 <!---3rd Parallax----->
-<div class="parallax-four">
+<div class="container-fluid parallax-four">
     <div class="top-heading title-three">
-        <h1>Shop Info</h1>
+        <h1><!------Shop Info---></h1>
     </div>
 </div>
 
@@ -221,8 +232,8 @@
 <!--- Shop Info ------>
 <div class="jumbotron">
     <div class="container-fluid">
-	    <div class="row padding">
-		    <div class="col-lg-6 text-center info-text frame1">
+	    <div class="row">
+		    <div class="col-lg-6 info-text">
 			    <p>The shop is located in Toyen, at Herbslebs gate 47. </p>
 			    <p>Please remember, NO whiners, NO hagglers, NO reggaeton, NO homophobes, NO racists!</p>
 			    <p>We want everyone who comes in to feel welcome and like they can express their artistic ideas with no judgement. Most of all, we want all our clients to have a fun and enjoyable experience.</p>
@@ -230,7 +241,7 @@
                 <p>For pricing, we quote per hour or by piece. <br>Come in and talk to us for more details.</p>
             </div>
 		        <div class="col-lg-6">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2000.0538538912633!2d10.766208116010233!3d59.914653570995405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e5eea666cb9%3A0xc08ae06fd4ee01a1!2sHerslebs%20gate%2047%2C%200578%20Oslo!5e0!3m2!1sen!2sno!4v1580827748580!5m2!1sen!2sno" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2000.0538538912633!2d10.766208116010233!3d59.914653570995405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e5eea666cb9%3A0xc08ae06fd4ee01a1!2sHerslebs%20gate%2047%2C%200578%20Oslo!5e0!3m2!1sen!2sno!4v1580827748580!5m2!1sen!2sno" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 	            </div>
         </div>	
     </div>
@@ -241,12 +252,12 @@
 <!---Footer ------->
 <footer>
 
-<div class="footer footer-dark">
+<div class="footer">
 <div class="container">
   <div class="row">
     <div class="col-lg-6 col-xs-12 about-company text-center">
       <h2 class="hours-title">Shop Hours</h2>
-      <p class=" text-white-50 text-center">M-F - 9-17 <br> S-S - 11-16 </p>
+      <p class="text-center">M-F - 9-17 <br> S-S - 11-16 </p>
     </div>
   
     <div class="col-lg-6 col-xs-12 location text-center">
