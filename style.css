@@ -3,6 +3,11 @@
 font-family: 'Ewert', cursive;
 }
 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
 .nav-item {
     font-family: 'exo' cursive;
 }
@@ -113,11 +118,8 @@ font-family: 'Ewert', cursive;
 
 }
 
-
 .card {
-
-    width: 300px;
-    length: 300px;
+    width: 100%;
 }
 
 hr {
@@ -161,4 +163,10 @@ hr {
 .welcome.text {
 
     background-color: #ccccca;
+}
+
+
+@media (max-width: 500px;) {
+
+
 }
