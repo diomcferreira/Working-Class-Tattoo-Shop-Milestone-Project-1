@@ -68,7 +68,25 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This project was created using Github and gitpod.io was used to write this code. From there, git commits were used to push to my my GitHub repository.
+I've used GitPages to deploy this site from my repository with the following steps:
+
+Login to my GitHub account
+Go to the  repository
+Go to the settings-tab
+Scroll down to the GitHub Pages section
+At the GitHub Pages section, choose "master branch" as your source
+The page will now automatically refresh and the repository deployed
+You can now scroll down again to the GitHub Pages section to retrieve the link for the website
+To run this project locally the following steps should be followed:
+
+You can follow this link to the repository
+Click on the green colored button "Clone or download"
+Copy the URL that pops up
+In your local IDE open Git Bash
+The next step is to change your current working directory to the location you want for your cloned directory
+Now type in "git clone" and paste the copied URL
+When you press Enter your local clone will be created
 
 ### Media
 
