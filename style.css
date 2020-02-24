@@ -15,24 +15,35 @@ font-family: 'Ewert', cursive;
 .title-one {
 
     font-family: 'bungee shade', cursive;
+    font-size: 150%;
+    color: #000;
+    margin-top: 120px;
+    margin-left: 50px;
+    text-shadow: -4px 4px white;
+    position: absolute;
     
 }
 
 .title-two {
 
     font-family: 'bungee shade', cursive;
-    margin-top: 170px;
-    margin-left: 260px;
-    color: #fff;
-   
+    font-size: 150%;
+    color: #000;
+    margin-top: 120px;
+    margin-left: 50px;
+    text-shadow: -4px 4px white;
+    position: absolute;
 }
 
 .title-three {
 
     font-family: 'bungee shade', cursive;
-    margin-top: 170px;
-    margin-left: 260px;
-    color: #fff;
+    font-size: 150%;
+    color: #000;
+    margin-top: 120px;
+    margin-left: 50px;
+    text-shadow: -4px 4px white;
+    position: absolute;
 }
 
 .info-text {
