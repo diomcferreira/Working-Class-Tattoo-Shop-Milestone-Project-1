@@ -48,45 +48,36 @@ In "contact us" form, I want to add a attachment link, so it's possible a custom
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+All forms have been checked for required details.
+Site has been tested on various browsers and screen sizes.
+All outbound links open new browser tab, so user can stay on site with no need to take any extra steps.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+Have noticed that section images take a bit longer than expected to load, but generally do so within acceptable timeframe.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Code validator https://validator.w3.org/ has been used for both HTML and CSS code, with very few Warnings (2 hyphens in a row) and a couple of Errors that don't seem to affect use of site.
 
 ## Deployment
 
 This project was created using Github and gitpod.io was used to write this code. From there, git commits were used to push to my my GitHub repository.
 I've used GitPages to deploy this site from my repository with the following steps:
 
-Login to my GitHub account
-Go to the  repository
-Go to the settings-tab
-Scroll down to the GitHub Pages section
-At the GitHub Pages section, choose "master branch" as your source
-The page will now automatically refresh and the repository deployed
-You can now scroll down again to the GitHub Pages section to retrieve the link for the website
-To run this project locally the following steps should be followed:
+- On Github navigate to /diomcferreira/Working-Class-Tattoo-Shop-Milestone-Project-1
+- From menu at the top, click on settings.
+- Scroll down to the GitHub pages section.
+- Under Source section click on dropdown menu and select "Master Branch" as your GitHub pages publishing source.
+- Select save.
+- Enjoy.
 
-You can follow this link to the repository
-Click on the green colored button "Clone or download"
-Copy the URL that pops up
-In your local IDE open Git Bash
-The next step is to change your current working directory to the location you want for your cloned directory
-Now type in "git clone" and paste the copied URL
-When you press Enter your local clone will be created
+To create a local repository follow those steps:
+
+- Go to Github Project Repository
+- Under the repository name click Clone or download
+- In the 'Clone with HTTPs section' clone URL for the repository.
+- Open Git Bash in your local platform.
+- Change the current working directory to the location where you want the cloned directory to be made.
+- Type git clone, and then paste the URL copied earlier: git clone https://github.com/diomcferreira/Working-Class-Tattoo-Shop-Milestone-Project-1
+- After pressing ENTER your local clone will be created.
+- Enjoy.
 
 ### Media
 
