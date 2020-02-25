@@ -87,7 +87,7 @@ font-family: 'Ewert', cursive;
 
 
 .parallax-one {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../media/shopfront.png);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./media/shopfront.png);
     padding: 100px;
     height: 600px;
     background-attachment: fixed;
@@ -97,7 +97,7 @@ font-family: 'Ewert', cursive;
 }
 
 .parallax-two {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(../media/parallax-one.png);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(./media/parallax-one.png);
     padding: 100px;
     height: 600px;
     background-attachment: fixed;
@@ -108,7 +108,7 @@ font-family: 'Ewert', cursive;
 
 .parallax-three {
    
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(../media/parallax-two.png);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(./media/parallax-two.png);
     padding: 100px;
     height: 600px;
     background-attachment: fixed;
@@ -119,7 +119,7 @@ font-family: 'Ewert', cursive;
 
 
 .parallax-four {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(../media/shoprules.png);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(./media/shoprules.png);
     padding: 100px;
     height: 600px;
     background-attachment: fixed;
