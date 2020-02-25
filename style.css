@@ -16,10 +16,10 @@ font-family: 'Ewert', cursive;
 
     font-family: 'bungee shade', cursive;
     font-size: 150%;
-    color: #000;
+    color: #fff;
     margin-top: 120px;
     margin-left: 50px;
-    text-shadow: -4px 4px white;
+    
     position: absolute;
     
 }
@@ -28,10 +28,10 @@ font-family: 'Ewert', cursive;
 
     font-family: 'bungee shade', cursive;
     font-size: 150%;
-    color: #000;
+    color: #fff;
     margin-top: 120px;
     margin-left: 50px;
-    text-shadow: -4px 4px white;
+
     position: absolute;
 }
 
@@ -39,10 +39,10 @@ font-family: 'Ewert', cursive;
 
     font-family: 'bungee shade', cursive;
     font-size: 150%;
-    color: #000;
+    color: #fff;
     margin-top: 120px;
     margin-left: 50px;
-    text-shadow: -4px 4px white;
+
     position: absolute;
 }
 
@@ -81,7 +81,7 @@ font-family: 'Ewert', cursive;
 
 
 .parallax-one {
-    background-image: url(../media/shopfront.png);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../media/shopfront.png);
     padding: 100px;
     height: 600px;
     background-attachment: fixed;
@@ -91,7 +91,7 @@ font-family: 'Ewert', cursive;
 }
 
 .parallax-two {
-    background-image: url(../media/parallax-one.png);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(../media/parallax-one.png);
     padding: 100px;
     height: 600px;
     background-attachment: fixed;
@@ -101,7 +101,8 @@ font-family: 'Ewert', cursive;
 }
 
 .parallax-three {
-    background-image: url(../media/parallax-two.png);
+   
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(../media/parallax-two.png);
     padding: 100px;
     height: 600px;
     background-attachment: fixed;
@@ -110,8 +111,10 @@ font-family: 'Ewert', cursive;
     background-size: cover;
 }
 
+
+
 .parallax-four {
-    background-image: url(../media/shoprules.png);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(../media/shoprules.png);
     padding: 100px;
     height: 600px;
     background-attachment: fixed;
